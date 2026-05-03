@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta name="description" content="The soup is bone broth based and comes in three flavors: “Shoyu Soy Sauce,” “Classic Savory,” and “Miso.” Please enjoy the ramen of “Naruto Uzumaki’s Favorite”!">
+       <meta name="robots" content="index, follow">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <!--==================== FAVICON ====================-->
+       <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" sizes="32x32">
+      
+
+       <!--==================== REMIXICONS ====================-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+       <!--==================== SWIPER CSS ====================-->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+
+       <!--==================== CSS ====================-->
+       <link rel="stylesheet" href="assets/cs/style.css">
+
+       <title>Ichiraku Ramen</title>
+    </head>
+    <body>
+       <!--==================== HEADER & NAV ====================-->
+         <header class="header header-olive" id="header">
+            <nav class="nav container">
+               <a href="#" class="nav__logo">Ramen</a>
+
+               <div class="nav__menu" id="nav-menu">
+                 <ul class="nav__list">
+                  <li>
+                   <a href="#home" class="nav__link active">Home</a>
+                  </li>
+                  <li>
+                   <a href="#about" class="nav__link">About Us</a>
+                  </li> 
+                  <li>
+                   <a href="#menu" class="nav__link">Menu</a>
+                  </li>  
+                  <li>
+                   <a href="#new" class="nav__link">Special</a>
+                  </li>
+                  <li>
+                   <a href="#contact" class="nav__link">Contact</a>
+                  </li>
+                </ul>
+
+                 <div class="nav__close" id="nav-close">
+                   <i class="ri-close-large-line"></i>
+                 </div>
+              </div>
+              <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-apps-2-line"></i>
+              </div>
+           </nav>
+         </header>
+       <!--==================== MAIN ====================-->
+       <main class="main">
+           <!--==================== HOME SECTION ====================-->
+           <section class="home section" id="home">
+            <div class="home__container container grid">
+               <div class="home__data">
+
+                  <h1 class="home__title">Enjoy Legendary <br> The <span> Ichiraku Ramen
+
+                  </h1>
+
+                  <p class="home__description">
+                     We serve the finest Japanese cuisine. Slow-cooked to perfection with powerful flavors and fresh ingredients. Ichiraku Ramen brings Konoha's warmth to your table.
+                  </p>
+
+                  <a href="#menu" class="button">Order Now</a>
+                  <img src="assets/img/japanese flower.png" alt="image" class="home__flower-1">
+                  <img src="assets/img/japanese flower.png" alt="image" class="home__flower-2">
+                  <img src="assets/img/leaf 1.png" alt="image" class="home__leaf-1">
+                  <img src="assets/img/leaf 1.png" alt="image" class="home__leaf-2">
+
+                  <h2 class="home__text">美 <br> 味</h2>
+               </div>
+            <div class="home__images">
+               <div class="home__blob"></div>
+               <img src="assets/img/home-img-1.png" alt="" class="home__img-1">
+               <img src="assets/img/home-img-2.png" alt="" class="home__img-2">
+               <img src="assets/img/home-img-3.png" alt="" class="home__img-3">
+               <img src="assets/img/home-img-4.png" alt="" class="home__img-4">
+               <img src="assets/img/home-img-5.png" alt="" class="home__img-5">
+               <img src="assets/img/home-img-6.png" alt="" class="home__img-6">
+               <img src="assets/img/home-img-7.png" alt="" class="home__img-7">
+               <img src="assets/img/home-img-8.png" alt="" class="home__img-8">
+
+
+
+               
+
+
+               <img src="assets/img/japanese flower.png" alt="image" class="home__flower-3">
+               <img src="assets/img/japanese flower.png" alt="image" class="home__flower-4">
+               <img src="assets/img/leaf 3.png" alt="image" class="home__leaf-3">
+
+            </div>
+
+            </div>
+
+           </section>
+           <!--==================== ABOUT SECTION ====================-->
+            <section class="about section" id="about">
+              <div class="about__container container grid">
+                  <div class="about__data">
+                     <span class="section__subtitle">About Us / 私たちについて</span>
+
+                     <h2 class="section__title">We Serve You The <br> Authentic <span>Japanese Flavor</span></h2>
+
+                     <p class="about__description">
+                     We have been operating for ten years to continue serving Japanese food, with authentic flavors that we will continue to naturalize for you.
+                     </p>
+
+                     <a href="#new" class="button">Special Menu</a>
+                     <img src="assets/img/japanese flower.png" alt="image" class="about__flower-1">
+                     <img src="assets/img/japanese flower.png" alt="image" class="about__flower-2">
+                     <img src="assets/img/leaf 1.png" alt="image" class="about__leaf">
+                     
+                     <h2 class="about__text">日本</h2>
+                  </div>
+
+                  <div class="about__images">
+                     <div class="about__blob"></div>
+                     <img src="assets/img/about-img-1.png" alt="" class="about__img">
+
+                  </div>
+               </div>
+            </section>
+
+           <!--==================== MENU SECTION ====================-->
+           <section class="menu section" id="menu" data-header-theme="cream">
+            <h2 class="section__title">Our Menu</h2>
+
+            <div class="menu__container container">
+              <h2 class="menu__text-1">寿 <br> 司</h2>
+              <h2 class="menu__text-2">拉 <br> 麵</h2>
+
+              <div class="menu__tabs swiper" thumbsSlider="">
+                 <div class="menu__buttons swiper-wrapper">
+
+                    <button class="menu__button swiper-slide">
+                        <img src="assets/img/menu-button-3.png" alt="image">
+                        <span>Appetizers</span>
+                     </button>
+                     <button class="menu__button swiper-slide">
+                        <img src="assets/img/menu-button-1.png" alt="image">
+                        <span>Ramen</span>
+                     </button>
+
+                     <button class="menu__button swiper-slide">
+                        <img src="assets/img/menu-button-2.png" alt="image">
+                        <span>Udon</span>
+                     </button>
+
+                     
+
+                     <button class="menu__button swiper-slide">
+                        <img src="assets/img/menu-button-4.png" alt="image">
+                        <span>Sushi</span>
+                     </button>
+
+                     <button class="menu__button swiper-slide">
+                        <img src="assets/img/menu-button-5.png" alt="image">
+                        <span>Add-ons</span>
+                     </button>
+
+                     <button class="menu__button swiper-slide">
+                        <img src="assets/img/menu-button-6.png" alt="image">
+                        <span>Beverages</span>
+                    </button>
+                 </div>
+              </div>
+
+                  <div class="menu__content swiper">
+                    <div class="swiper-wrapper">
+
+                        <!-- menu card 1 -->
+                        <div class="menu__cards swiper-slide">
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                <div class="appetizer__img1">
+                                   <img src="assets/img/menu-appetizer-1.png" alt="image" class="menu__img">
+                                </div>
+                                 <h2 class="menu__name">Asian Fried Chicken</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$12</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="appetizer__img2">
+                                  <img src="assets/img/menu-appetizer-2.png" alt="image" class="menu__img">
+                                 </div>
+                                  <h2 class="menu__name">Gyoza</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$9.50</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                           <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="appetizer__img3">
+                                  <img src="assets/img/menu-appetizer-3.png" alt="image" class="menu__img">
+                                 </div>
+                                 <h2 class="menu__name">Agedashi Tofu</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$7.50</h3>
+                                    <div class="stock">
+                                    <span class="menu__stock">out of stock</span>
+                                    </div>
+                                 </div>
+                              </div>
+                          </article>
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="appetizer__img4">
+                                 <img src="assets/img/menu-appetizer-4.png" alt="image" class="menu__img">
+                                 </div>
+                                 <h2 class="menu__name">Onigiri</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$4.50</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="appetizer__img5">
+                                  <img src="assets/img/menu-appetizer-5.png" alt="image" class="menu__img">
+                                 </div>
+                                 <h2 class="menu__name">Spring Rolls</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$6.50</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="appetizer__img6">
+                                  <img src="assets/img/menu-appetizer-6.png" alt="image" class="menu__img">
+                                 </div>
+                                 <h2 class="menu__name">Cucumber Salad</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$3.50</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+                       </div>
+
+                        <!-- menu card 2 -->
+                        <div class="menu__cards swiper-slide">
+
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <img src="assets/img/menu-ramen-1.png" alt="image" class="menu__img">
+                                 <h2 class="menu__name">Tonkotsu Ramen</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$16</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <img src="assets/img/menu-ramen-2.png" alt="image" class="menu__img">
+                                 <h2 class="menu__name">Shoyu Ramen</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$13</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                           <article class="menu__card">
+                              <div class="menu__blob">
+                                 <img src="assets/img/menu-ramen-3.png" alt="image" class="menu__img">
+                                 <h2 class="menu__name">Miso Ramen</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$15.50</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <img src="assets/img/menu-ramen-4.png" alt="image" class="menu__img">
+                                 <h2 class="menu__name">Shio Ramen</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$14</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                           <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="newramen">
+                                  <img src="assets/img/menu-ramen-0.png" alt="image" class="menu__img">
+                                 </div>
+                                 <h2 class="menu__name">Ajisen Ramen</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$15.50</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="img">
+                                   <img src="assets/img/menu-ramen-5.png" alt="image" class="menu__img">
+                                 </div>
+                                 <div class="ramen__name5">
+                                 <h2 class="menu__name">Tsukemen Ramen</h2>
+                                 </div>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$17</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+                       </div>  
+
+                        <!-- menu card 3 -->
+                        <div class="menu__cards swiper-slide">
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <img src="assets/img/menu-udon-1.png" alt="image" class="menu__img">
+                                 <h2 class="menu__name">Tempura Udon</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$16</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <img src="assets/img/menu-udon-2.png" alt="image" class="menu__img">
+                                 <h2 class="menu__name">Yaki Udon</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$14</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                           <article class="menu__card">
+                              <div class="menu__blob">
+                                 <img src="assets/img/menu-udon-3.png" alt="image" class="menu__img">
+                                 <h2 class="menu__name">Kake Udon</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$11</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+                       </div> 
+
+                        <!-- menu card 4 -->
+                        <div class="menu__cards swiper-slide">
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="sushi__img1">
+                                  <img src="assets/img/menu-sushi-1.png" alt="image" class="menu__img">
+                                 </div>
+                                 <h2 class="menu__name">Maki</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$7</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="sushi__img2">
+                                  <img src="assets/img/menu-sushi-2.png" alt="image" class="menu__img">
+                                 </div>
+                                  <h2 class="menu__name">Maki Salmon</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$8.50</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="sushi__img3">
+                                   <img src="assets/img/menu-sushi-3.png" alt="image" class="menu__img">
+                                 </div>
+                                 <h2 class="menu__name">Ikura</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$9</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                           <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="sushi__img4">
+                                  <img src="assets/img/menu-sushi-4.png" alt="image" class="menu__img">
+                                 </div>
+                                 <h2 class="menu__name">Sake Nigiri</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$7.50</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="sushi__img5">
+                                  <img src="assets/img/menu-sushi-5.png" alt="image" class="menu__img">
+                                 </div>
+                                 <h2 class="menu__name">Tuna Nigiri</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$8</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                              <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="sushi__img6">
+                                  <img src="assets/img/menu-sushi-6.png" alt="image" class="menu__img">
+                                 </div>
+                                 <h2 class="menu__name">Unagi Nigiri</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$7.50</h3>
+                                    <div class="stock">
+                                    <span class="menu__stock">out of stock</span>
+                                    </div>
+                                 </div>
+                              </div>
+                          </article>
+                       </div>
+
+                        <!-- menu card 5 -->
+                        <div class="menu__cards swiper-slide">
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <img src="assets/img/menu-sauce-1.png" alt="image" class="menu__img">
+                                 <h2 class="menu__name">Black Garlic Oil</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$2</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <img src="assets/img/menu-sauce-2.png" alt="image" class="menu__img">
+                                 <h2 class="menu__name">Chili Oil</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$1.50</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                           <article class="menu__card">
+                              <div class="menu__blob">
+                                 <img src="assets/img/menu-sauce-3.png" alt="image" class="menu__img">
+                                 <h2 class="menu__name">Corn</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$2</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                           <article class="menu__card">
+                              <div class="menu__blob">
+                                <div class="add_img4">
+                                   <img src="assets/img/menu-sauce-4.png" alt="image" class="menu__img">
+                                 </div>
+                                 <h2 class="menu__name">Green Onions</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$1</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                           <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="add_img5">
+                                  <img src="assets/img/menu-sauce-5.png" alt="image" class="menu__img">
+                                 </div>
+                                 <h2 class="menu__name">Soft Boiled Egg</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$2.50</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                           <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="add_img6">
+                                  <img src="assets/img/menu-sauce-6.png" alt="image" class="menu__img">
+                                 </div>
+                                 <h2 class="menu__name">Noodles</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$3</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+                       </div>
+
+                        <!-- menu card 6 -->
+                        <div class="menu__cards swiper-slide">
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="ramune1">
+                                   <img src="assets/img/menu-bottle-1.png" alt="image" class="menu__img">
+                                 </div>
+                                 <h2 class="menu__name">Ramune Original</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$6</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="ramune2">
+                                  <img src="assets/img/menu-bottle-2.png" alt="image" class="menu__img">
+                                 </div>
+                                  <h2 class="menu__name">Ramune Lychee</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$4.50</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                           <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="ramune3">
+                                   <img src="assets/img/menu-bottle-3.png" alt="image" class="menu__img">
+                                 </div>
+                                   <h2 class="menu__name">Ramune Yuzu</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$4.50</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="ramune4">
+                                  <img src="assets/img/menu-bottle-4.png" alt="image" class="menu__img">
+                                 </div>
+                                 <h2 class="menu__name">Ramune Strawberry</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$4.50</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="ramune5">
+                                  <img src="assets/img/menu-bottle-5.png" alt="image" class="menu__img">
+                                 </div>
+                                  <h2 class="menu__name">Bubble Tea</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$6</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="ramune6">
+                                  <img src="assets/img/menu-bottle-6.png" alt="image" class="menu__img">
+                                 </div>
+                                  <h2 class="menu__name">Matcha Bubble Tea</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$6.50</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+
+                          <article class="menu__card">
+                              <div class="menu__blob">
+                                 <div class="ramune7">
+                                   <img src="assets/img/menu-bottle-7.png" alt="image" class="menu__img">
+                                 </div>
+                                   <h2 class="menu__name">Calpico</h2>
+
+                                 <div class="menu__info">
+
+                                    <h3 class="menu__price">$5</h3>
+                                    <span class="menu__stock">available</span>
+                                 </div>
+                              </div>
+                          </article>
+                       </div>
+                     </div>
+                  </div>
+               </div>
+
+           </section>
+
+           <!--==================== NEW SECTION ====================-->
+           <section class="new section" id="new">
+            <div class="new__container container grid">
+               <div class="new__data">
+                  <span class="section__subtitle">Recently Added / 新しく追加された</span>
+
+                  <h2 class="section__title">Try Our Street Style <br> <span>Yakitori</span></h2>
+                  
+               
+                  <p class="section__description"> 
+                   Experience the smoky sizzle of Japanese street food with our hand-made yakitori. Each skewer is flame-kissed that brings Tokyo taste to your plate.
+                  </p>
+                  <img src="assets/img/japanese flower.png" alt="image" class="new__flower-1">
+                  <img src="assets/img/japanese flower.png" alt="image" class="new__flower-2">
+                  <img src="assets/img/leaf 1.png" alt="image" class="new__leaf-1">
+                  <img src="assets/img/leaf 3.png" alt="image" class="new__leaf-2">
+
+                  <h2 class="new__text-1">日本</h2>
+              </div>
+
+               <div class="new__images">
+                  <div class="new__blob"></div>
+
+                  <img src="assets/img/new-image-1.png" alt="image" class="new__img-1">
+                  <img src="assets/img/new-image-2.png" alt="image" class="new__img-2">
+                  <img src="assets/img/new-image-3.png" alt="image" class="new__img-3">
+                  <img src="assets/img/new-image-4.png" alt="image" class="new__img-4">
+                  <img src="assets/img/new-image-5.png" alt="image" class="new__img-5">
+
+                  <img src="assets/img/japanese flower.png" alt="image" class="new__flower-3">
+                  <img src="assets/img/japanese flower.png" alt="image" class="new__flower-4">
+                  <img src="assets/img/leaf 2.png" alt="image" class="new__leaf-3">
+
+                  <h2 class="new__text-2">辛焼き鳥</h2>
+
+               </div>
+
+            </div>
+
+
+           </section>
+
+           <!--==================== CONTACT SECTION ====================-->
+           <section class="contact section" id="contact" data-header-theme="cream">
+            <h2 class="section__title">Contact Us And Order <br> The Best Ramen</h2>
+            <div class="contact__container container grid">
+               <h2 class="contact__text-1">日 <br> 本</h2>
+               <h2 class="contact__text-2">接 <br> 触</h2>
+
+               <div class="contact__content grid">
+                  <div class="contact__data">
+                     <h3 class="contact__title">Messages:</h3>
+                     <div class="contact__social">
+                       <a href="https://m.me/yourusername" target="_blank" class="contact__social-link">
+                          <i class="ri-messenger-line"></i>
+                       </a>
+
+                        <a href="https://wa.me" target="_blank" class="contact__social-link">
+                          <i class="ri-whatsapp-line"></i>
+                       </a>
+
+                        <a href="mailto:4yeshamuzammil@gmail.com" target="_blank" class="contact__social-link">
+                           <i class="ri-mail-line"></i>
+                       </a>
+
+                     </div>
+
+                  </div>
+
+                  <div class="contact__data">
+                     <h3 class="contact__title">Location:</h3>
+                     <address class="contact__address">
+                        A105 - CGCHS<br>Gulshan-e-Iqbal, Karachi
+                     </address>
+                  </div>
+
+                  <div class="contact__data">
+                     <h3 class="contact__title">Phone:</h3>
+                     <address class="contact__address">
+                        +0123(00)-765-4321 <br> +00-0123456
+                     </address>
+                  </div>
+
+                  <div class="contact__data">
+                     <h3 class="contact__title">Attention:</h3>
+                     <address class="contact__address">
+                        Monday - Thursday <br> 12am - 5pm
+                     </address>
+                  </div>
+
+               </div>
+
+               <div class="contact__newsletter grid">
+                  <p class="contact__description">Subscribe to the newsletter</p>
+
+                  <form action="" class="contact__form">
+                     <input type="email" placeholder="Enter your email address" class="contact__input">
+                     <button class="contact__button button">Subscribe</button>
+                  </form>
+
+               </div>
+
+
+            </div>
+
+
+           </section>
+       </main>
+
+       <!--==================== FOOTER ====================-->
+       <footer class="footer">
+         <div class="footer__container container grid">
+            <a href="#" class="footer__logo">Ramen</a>
+
+            <div class="footer__social">
+               <a href="https://www.instagram.com" target="_blank" class="footer__social-link">
+                  <i class="ri-instagram-fill"></i>
+               </a>
+               <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
+                  <i class="ri-facebook-circle-fill"></i>
+               </a>
+
+               <a href="https://x.com/" target="_blank" class="footer__social-link">
+                  <i class="ri-twitter-fill"></i>
+               </a>
+            </div>
+            <span class="footer__copy">&#169; All Rights Reserved By Ayesha Muzammil</span>
+         </div>
+       </footer>
+
+       <!--========== SCROLL UP ==========-->
+       <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-fill"></i>
+       </a>
+
+
+       <!--=============== SCROLLREVEAL ===============-->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+
+       <!--=============== SWIPER JS ===============-->
+       <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+       <!--=============== MAIN JS ===============-->
+       <script src="assets/js/main.js"></script>
+   </body>
+</html>
