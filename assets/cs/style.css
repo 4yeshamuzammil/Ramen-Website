@@ -745,9 +745,11 @@ z-index: 10;
 }
 
 .menu__card {
+
   white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
-}
+  width: 100%; }
 
 .menu__img{
   width: 190px;
