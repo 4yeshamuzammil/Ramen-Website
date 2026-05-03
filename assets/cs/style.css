@@ -744,6 +744,11 @@ z-index: 10;
   transition: background-color .4s;
 }
 
+.menu__card {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .menu__img{
   width: 190px;
   height: 180px;
